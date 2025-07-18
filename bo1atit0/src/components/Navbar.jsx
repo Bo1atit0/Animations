@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         {/* button */}
         <div>
-          <button className='md:flex lg:flex items-center gap-2 hidden'>
+          <button className='md:flex lg:flex items-center gap-2 hidden bg-main py-2 rounded-lg px-4'>
             View Resume
             <GoBriefcase/>
           </button>
