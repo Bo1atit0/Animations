@@ -1,4 +1,4 @@
-.animate-Loading1{
+.animate-Loading1 {
   /* animation-name: Loading1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -11,56 +11,65 @@
   animation: Loading1 15s linear infinite normal forwards;
 }
 
-.animate-Loading1:hover{
+.animate-Loading1:hover {
   animation-play-state: paused;
   cursor: pointer;
 }
 
 @keyframes Loading1 {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  50%{
+  50% {
     scale: 2;
     transform: rotate(0);
     border-radius: 0;
   }
 
-  100%{
+  100% {
     transform: rotate(360deg);
     border-radius: 50%;
     scale: 2;
-    
   }
-  
 }
 
-.animate-Loading2{
+.animate-Loading2 {
   border-color: aqua;
   animation-name: Loading2;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
-
 }
 
 @keyframes Loading2 {
-  0%{
-    
-   } 
+  0% {
+  }
 
-
-  50%{
+  50% {
     /* transform: rotateX(180deg); */
-   
-
   }
-  70%{
-     transform: rotateZ(90deg);
+  70% {
+    transform: rotateZ(90deg);
   }
 
-  100%{
+  100% {
+  }
+}
 
+.spin {
+  animation: spinSlow 3s linear infinite;
+}
+.spin:after {
+  animation-delay: -5s;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }

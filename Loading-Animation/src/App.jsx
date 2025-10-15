@@ -6,6 +6,8 @@ import Animate2 from "./components/Motion/Animate2";
 import Button1 from "./components/Buttons/Button1";
 import Linear1 from "./components/gradient/linear-gradient/Linear1";
 import Underline from "./components/underline";
+import CrossPlusIcon from "./components/Buttons/crossPlusIcon";
+import Conic1 from "./components/gradient/conic-gradient/Conic1";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Button1 />
         <Linear1 />
         <Underline />
+        <CrossPlusIcon />
+        <Conic1 />
       </main>
     </>
   );
